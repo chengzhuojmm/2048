@@ -1,0 +1,179 @@
+*{
+    margin: 0px auto
+}
+body{
+    /*background: url("3.png") no-repeat right top #959da0;*/
+/*background: black;*/
+    font-family: fantasy;
+     color: white;
+ }
+main{
+    width: 1800px;
+    height: 850px;
+    background: url("3.png") no-repeat right top #959da0;
+}
+.container{
+    width: 1100px;
+    height: 700px;
+    /*border: 1px solid white;*/
+    position: relative;
+    z-index: 0;
+}
+.main{
+    width: 490px;
+    height: 495px;
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    /*background-color: white;*/
+    position: relative;
+    top: 150px;
+    background: #373e40;
+    tansition:3s filer;
+}
+.main div {
+    float:left;
+    margin:11px;
+    /*border:1px solid white;*/
+    width:100px;
+    height:100px;
+    background: #a2b4ba;
+    border-radius: 15px;
+}
+.saveScore{
+    width: 200px;
+    height: 100px;
+    /*border: 1px solid white;*/
+    color: white;
+    float: left;
+    position: relative；
+}
+.saveScoreName{
+    width: 230px;
+    height: 50px;
+    /*border: 1px solid white;*/
+    float: left;
+    font-family: cursive;
+    font-size: 40px;
+    color: #2b3137;
+    position: relative;
+    bottom: 140px;
+}
+.saveScoreShow{
+    width: 160px;
+    height: 60px;
+    clear: both;
+    float: left;
+    font-size: 45px;
+    font-family: cursive;
+    background-color: #2f3233;
+  /*border: 1px solid white;   */
+    border-radius: 15px;
+    color: black;
+    position: relative;
+    bottom: 140px;
+}
+.score{
+    width: 200px;
+    height: 100px;
+    /*border: 1px solid white;*/
+    /*text-align: center;*/
+    font: 40px 宋体;
+    /*background: #FF9218;*/
+    position: relative;
+    float: left;
+    left: 0px;top: 200px;
+}
+.showScore{
+    width: 135px;
+    height: 50px;
+    clear: both;
+    float: left;
+    background-color: #2f3233;
+    border-radius: 15px;
+    color: #fff;
+    padding:10px 0 10px 15px ;
+    font-family: cursive;
+    /*border: 1px solid black;*/
+
+}
+.scoreName{
+    width: 150px;
+    height: 50px;
+    float: left;
+    /*border: 1px solid black;*/
+    color: #2b3137;
+    font-family: cursive;
+}
+.gameOver{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.85;
+    z-index: 10;
+    position: absolute;
+    display: none;
+}
+.over{
+    width: 800px;
+    height: 200px;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: 100px;
+    font-family: cursive;
+    font-size: 150px;
+    color: #74ff0a;
+    font-weight: bolder;
+    text-align: center;
+}
+.scoreShow{
+    width: 400px;
+    height: 100px;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: 120px;
+    font-size: 80px;
+    text-align: center;
+    color: #ff9209;
+    font-family: cursive;
+}
+.restart{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-family: cursive;
+    color: #11e8cc;
+    font-size: 90px;
+}
+.restart p:hover{
+     color: red;
+    cursor: pointer;
+
+}
+.mohu{
+    -webkit-filter:blur(3px) contrast(0.8) brightness(0.8);
+}
+
+/*.movel{*/
+    /*transform: ;*/
+/*}*/
+
+
+
+
+.main .num2{font-size:  83px;background: #8a95ff;text-align: center;}
+.main .num4{font-size:83px;background: #ffb243;text-align: center}
+.main .num8{font-size: 83px;background: rgba(67, 255, 192, 0.65);text-align: center }
+.main .num16{font-size: 83px;background: rgba(255, 102, 51, 0.85);text-align: center }
+.main .num32{font-size:  83px ;background: rgba(117, 255, 23, 0.66);text-align: center }
+.main .num64{font-size: 83px ;background: rgba(145, 59, 255, 0.68);text-align: center }
+.main .num128{font-size:63px ;background: rgba(10, 255, 180, 0.65);text-align: center;line-height: 100px }
+.main .num256{font-size:63px ;background: rgba(15, 231, 255, 0.7);text-align: center;line-height: 100px }
+.main .num512{font-size:63px ;background: rgba(25, 135, 255, 0.65);text-align: center;line-height: 100px }
+.main .num1024{font-size: 43px ;background: rgba(102, 100, 255, 0.74);text-align: center;line-height: 100px }
+.main .num2048{font-size: 43px ;background: rgba(215, 104, 255, 0.68);text-align: center;line-height: 100px }
+.main .num4096{font-size: 43px ;background: rgba(255, 92, 220, 0.73);text-align: center;line-height: 100px }
+.main .num4096{font-size: 43px ;background: rgba(255, 29, 103, 0.71);text-align: center;line-height: 100px }
+.main .num8192{font-size: 43px ;background: rgba(255, 16, 22, 0.7);text-align: center;line-height: 100px}
